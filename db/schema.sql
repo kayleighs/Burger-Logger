@@ -12,4 +12,4 @@ CREATE TABLE burgers (
   PRIMARY KEY (id) 
 );
 
-SELECT * FROM top5000
+SELECT * FROM burgers_db
