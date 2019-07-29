@@ -1,0 +1,42 @@
+body {
+    background: url(../img/halftone.png)
+}
+.ks-container {
+    position: relative;
+}
+.ks-container::after {
+    content:"";
+    background: url("../img/halftone.png");  
+    opacity:.4;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    box-shadow: 4px 4px 20px 0px rgb(61, 61, 61);
+    border-radius: 15px;
+}
+
+.list-group-item {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    width: 75%;
+}
+.list-group-item:last-child {
+    border-bottom: none
+}
+.fa-hamburger{
+    color: orange;
+}
+
+.biggerText{
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.titleBurger{
+    border-bottom:1px solid rgba(0,0,0,.125);
+    width: 75%;
+}

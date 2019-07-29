@@ -1,7 +1,4 @@
-var connection = require('./connection.js').default;
-
-
-
+var connection = require("../config/connection.js");
 
 // Helper function for SQL syntax.
 // Let's say we want to pass 3 values into the mySQL query.
@@ -66,7 +63,6 @@ var orm = {
             if (err) {
                 throw err;
             }
-
             cb(result);
         });
     },
@@ -96,7 +92,6 @@ var orm = {
             if (err) {
                 throw err;
             }
-
             cb(result);
         });
     }

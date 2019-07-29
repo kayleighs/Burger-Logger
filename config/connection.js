@@ -1,5 +1,5 @@
-require("dotenv").config();
 // Set up MySQL connection.
+require("dotenv").config();
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
@@ -9,7 +9,6 @@ var connection = mysql.createConnection({
     password: process.env.DB_PASS,
     database: "burgers_db"
 });
-
 // Make connection.
 connection.connect(function (err) {
     if (err) {
