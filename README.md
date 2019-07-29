@@ -14,7 +14,7 @@ The user can then remove the burger from the list of eaten burgers
 ### To Use
 Click on a burger to eat or enter a new one!
 
-<img src="./public/img/example.gif" width="800">
+<img src="./public/assets/img/example.gif" width="800">
  
 ## Built With
 * node.js
